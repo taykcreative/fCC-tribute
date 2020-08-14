@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Lexend+Tera&display=swap');
+
+#linkedin {
+    width: 1cm;
+    opacity: 0.5;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #ccc;
+    background-image: url(https://image.freepik.com/free-vector/spider-web-dark-background_104045-710.jpg);
+}
+
+#main {
+    width: 100%;
+    background-color: #ddd;
+    margin-top: -50px;
+    border-left: #000 solid 3px;
+    border-right: #000 solid 3px;
+}
+
+#title {
+    background-color: #444;
+    color: #fff;
+    font-size: 80px;
+    text-align: left;
+    padding-left: 10px;
+    text-shadow: 3px 3px 5px #000;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+
+h2 {
+    color: #00f;
+    font-size: 60px;
+    font-family: 'Bangers', sans-serif;
+    text-align: right;
+    padding-right: 10px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 5px #000;
+    margin-top: -50px;
+    grid-area: hd;
+}
+
+div {
+    color: #24353a;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+#img-div {
+    margin-top: -50px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1.5em 1fr;
+    grid-template-areas: 'hd'
+                        'pic';
+}
+
+#image {
+    max-width: 85%;
+    justify-self: center;
+    align-self: center;
+    border: 10px inset rgb(37, 37, 37);
+    grid-area: pic;
+    visibility: visible;
+}
+
+#img-caption {
+    color: #fff;
+}
+
+#tribute-info, ul, #more{
+    color:#000;
+    font-size: 16px;
+    font-family: 'Lexend Tera', sans-serif;
+    font-weight: lighter;
+    letter-spacing: -2px;
+    text-align: left;
+    text-indent: 30px;
+    padding: 0 10px
+}
+
+li, #ul-title {
+    color: #000;
+    font-family: 'Lexend Tera', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    list-style-type: none;
+}
+
+#ul-title {
+    padding-top: 30px;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+li {
+    color: #f00;
+}
+
+#more {
+    text-align: center;
+    padding: 15px 0 15px;
+    border-top: #000 solid 3px;
+}
+
+#tribute-link {
+    color: #000;
+}
+
+#tribute-link:visited {
+    color: #00f;
+}
+
+#tribute-link:hover {
+    color: #f00;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-style: italic;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 650px) {
+    #image {
+        margin-top: 20px;
+    }
+}
